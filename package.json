@@ -1,0 +1,26 @@
+{
+  "name": "Mjolnir",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "Hisham Galal",
+  "license": "ISC",
+  "dependencies": {
+    "bn": "^1.0.5",
+    "circom": "^0.5.43",
+    "circomlib": "^0.5.2",
+    "elliptic": "^6.5.4",
+    "snarkjs": "^0.3.60"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.3",
+    "hardhat": "^2.2.0",
+    "hardhat-gas-reporter": "^1.0.4"
+  }
+}
